@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="1050" viewBox="0 0 1500 1050" role="img" aria-labelledby="title desc" style="display:block;max-width:1500px;height:auto">
+  <title id="title">Модон дотор засал, гал тогооны дээгүүр унтлагын мезанинтай зочны өрөөний 3D концепц</title>
+  <desc id="desc">Хэрэглэгчийн жишээ зурагт тулгуурласан өндөр шиллэгээ, модон хана тааз, нээлттэй зочны хэсэг, гал тогооны дээгүүрх унтлагын мезанины концепц дүрслэл.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8eaf0"/>
+      <stop offset="1" stop-color="#f7f0dc"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe0e4"/>
+      <stop offset="1" stop-color="#78a8ae"/>
+    </linearGradient>
+    <linearGradient id="woodwall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7b98c"/>
+      <stop offset="1" stop-color="#b7895f"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bd9163"/>
+      <stop offset="1" stop-color="#9b704c"/>
+    </linearGradient>
+    <pattern id="planks" width="120" height="26" patternUnits="userSpaceOnUse" patternTransform="skewY(-17)">
+      <path d="M0 2 H120 M0 24 H120 M30 2 V24 M91 2 V24" fill="none" stroke="#78583e" stroke-width="1.1" opacity=".38"/>
+    </pattern>
+    <pattern id="ceiling" width="32" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 2 H32 M0 16 H32" stroke="#9a714d" stroke-width="1.2" opacity=".48"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9"/>
+      <feOffset dx="0" dy="8" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#53755d"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #293b34; }
+      .title { font-size: 31px; font-weight: 750; }
+      .subtitle { font-size: 15px; fill: #62756a; }
+      .head { font-size: 19px; font-weight: 700; }
+      .label { font-size: 13px; font-weight: 700; }
+      .small { font-size: 11px; fill: #52665a; }
+      .tiny { font-size: 9px; fill: #52665a; }
+      .white { fill: #fff; }
+      .pale { fill: #e5eee6; }
+    </style>
+  </defs>
+  <rect width="1500" height="1050" fill="#f5f3ec"/>
+  <text x="48" y="56" class="title">ДОТОР ОРЧИН · МЕЗАНИНЫГ ГАЛ ТОГООНЫ ДЭЭР БАЙРЛУУЛСАН НЬ</text>
+  <text x="51" y="84" class="subtitle">Таны явуулсан жишээний модон дулаан төрх + өндөр цонх + нээлттэй зочны хэсгийн санаа</text>
+  <rect x="1220" y="39" width="235" height="35" rx="17" fill="#e6eee5"/>
+  <text x="1337" y="61" text-anchor="middle" class="small" font-weight="700">5.5 × 7 м СУУРЬ · КОНЦЕПЦ</text>
+
+  <!-- Render frame -->
+  <rect x="35" y="115" width="1430" height="785" rx="22" fill="#fffefa" stroke="#dce4da" stroke-width="1.5"/>
+  <rect x="57" y="137" width="1386" height="741" rx="15" fill="#f1eee5"/>
+
+  <!-- Outside view through glazing -->
+  <path d="M96 180 L780 180 L780 613 L96 613 Z" fill="url(#sky)"/>
+  <path d="M96 470 Q213 392 341 466 Q473 386 613 464 Q698 415 780 448 V613 H96 Z" fill="#9bb18d"/>
+  <path d="M96 526 Q213 461 335 516 Q463 459 594 519 Q699 474 780 503 V613 H96 Z" fill="#78966f"/>
+  <g fill="#69875f">
+    <path d="M139 489 L165 413 L191 489 Z"/><path d="M154 489 L166 447 L180 489 Z"/>
+    <path d="M616 467 L647 369 L678 467 Z"/><path d="M636 467 L647 416 L660 467 Z"/>
+    <path d="M705 474 L731 394 L758 474 Z"/>
+  </g>
+  <!-- Back wall timber -->
+  <path d="M780 180 L1365 308 L1365 615 L780 613 Z" fill="url(#woodwall)" stroke="#75563c" stroke-width="3"/>
+  <path d="M780 180 L1365 308 L1365 615 L780 613 Z" fill="url(#ceiling)" opacity=".75"/>
+  <path d="M801 223 L1347 343 M801 273 L1347 392 M801 324 L1347 440 M801 375 L1347 488 M801 426 L1347 536 M801 477 L1347 584" stroke="#9c754e" stroke-width="1.5" opacity=".48"/>
+  <path d="M845 194 L845 613 M927 212 L927 613 M1010 230 L1010 613 M1092 248 L1092 613 M1174 266 L1174 613 M1257 285 L1257 613 M1339 303 L1339 613" stroke="#926b49" stroke-width="1.1" opacity=".42"/>
+
+  <!-- Left high glazed front wall -->
+  <path d="M96 180 L780 180 L780 613 L96 613 Z" fill="url(#glass)" opacity=".54" stroke="#5e7a79" stroke-width="4"/>
+  <path d="M96 180 L780 180 L780 613 L96 613 Z" fill="none" stroke="#f8f6ea" stroke-width="12"/>
+  <path d="M250 180 V613 M420 180 V613 M590 180 V613 M96 320 H780 M96 463 H780" stroke="#f7f3e7" stroke-width="9"/>
+  <path d="M104 188 L104 605 M772 188 L772 605" stroke="#69807a" stroke-width="4"/>
+  <!-- Curtain edge and roof beam -->
+  <path d="M88 172 H795" stroke="#74583e" stroke-width="11"/>
+  <path d="M116 188 Q137 204 158 188 T200 188 T242 188 V514 Q221 526 200 514 T158 514 T116 514 Z" fill="#d7c5a8" opacity=".78"/>
+  <path d="M135 192 V507 M174 192 V514 M213 192 V512" stroke="#baa789" stroke-width="1.2"/>
+
+  <!-- Ceiling plane and timber slats -->
+  <path d="M96 180 L780 180 L1365 308 L666 344 Z" fill="#d8b88b" stroke="#8a6748" stroke-width="3"/>
+  <path d="M96 180 L780 180 L1365 308 L666 344 Z" fill="url(#ceiling)" opacity=".88"/>
+  <path d="M190 185 L753 185 M282 190 L866 198 M375 195 L977 218 M468 200 L1088 239 M560 204 L1198 259 M654 209 L1307 280" stroke="#936b47" stroke-width="3" opacity=".65"/>
+  <path d="M205 178 L205 195 M410 178 L410 199 M616 178 L616 203 M812 185 L812 216 M1016 231 L1016 252 M1225 276 L1225 296" stroke="#79583d" stroke-width="8" opacity=".88"/>
+  <!-- Pendant lighting -->
+  <path d="M510 189 V267 M565 197 V274" stroke="#4e4940" stroke-width="3"/>
+  <path d="M486 267 Q510 295 534 267 Z M541 274 Q565 303 589 274 Z" fill="#efe3c7" stroke="#725c41" stroke-width="2"/>
+  <circle cx="510" cy="271" r="9" fill="#f5d178" opacity=".8"/>
+  <circle cx="565" cy="279" r="9" fill="#f5d178" opacity=".8"/>
+
+  <!-- Loft platform over rear kitchen zone -->
+  <g filter="url(#shadow)">
+    <path d="M735 332 L1123 344 L1327 410 L927 402 Z" fill="#9a704d" stroke="#604a37" stroke-width="3"/>
+    <path d="M735 332 L927 402 L927 425 L735 354 Z" fill="#79583f" stroke="#604a37" stroke-width="2"/>
+    <path d="M927 402 L1327 410 L1327 432 L927 425 Z" fill="#876044" stroke="#604a37" stroke-width="2"/>
+    <path d="M758 337 L1121 351 L1292 407 L931 395 Z" fill="#c8a57b" stroke="#7d5e3e" stroke-width="1.5"/>
+    <path d="M758 337 L1121 351 L1292 407 L931 395 Z" fill="url(#wood)" opacity=".5"/>
+  </g>
+  <!-- Loft guardrail, partially screened -->
+  <path d="M752 330 L1121 341 L1317 404" fill="none" stroke="#6c5138" stroke-width="7"/>
+  <path d="M760 329 L760 385 M836 333 L836 385 M914 336 L914 389 M992 338 L992 392 M1070 340 L1070 394 M1148 350 L1148 400 M1226 375 L1226 410 M1305 401 L1305 423" stroke="#77583d" stroke-width="3"/>
+  <!-- Loft mattress, pillows -->
+  <path d="M1001 350 L1131 354 L1230 388 L1096 384 Z" fill="#f1eee5" stroke="#a79984" stroke-width="2"/>
+  <path d="M1022 351 L1055 352 L1082 362 L1048 362 Z M1065 352 L1098 353 L1125 363 L1092 362 Z" fill="#faf8f1" stroke="#b7aa96" stroke-width="1.2"/>
+  <path d="M1080 373 L1214 378 L1250 391 L1115 388 Z" fill="#b8c6b6" opacity=".9"/>
+  <!-- Loft storage drawers at front edge -->
+  <path d="M935 403 L1124 409 L1124 423 L935 419 Z" fill="#b18a62" stroke="#624b35" stroke-width="1.5"/>
+  <path d="M997 405 V421 M1060 407 V422" stroke="#76573b" stroke-width="1.5"/>
+  <circle cx="1028" cy="414" r="2" fill="#ead09a"/><circle cx="1090" cy="416" r="2" fill="#ead09a"/>
+  <text x="1073" y="326" text-anchor="middle" class="tiny" font-weight="700">УНТЛАГЫН МЕЗАНИН · ГАЛ ТОГООНЫ ДЭЭР</text>
+
+  <!-- Kitchen cabinetry underneath mezzanine on rear/right wall -->
+  <path d="M934 488 L1310 493 L1310 613 L934 613 Z" fill="#315d60" stroke="#23484a" stroke-width="2.5"/>
+  <path d="M934 488 L1310 493 L1310 520 L934 515 Z" fill="#d4c5a8" stroke="#75634a" stroke-width="1.5"/>
+  <!-- counter / backsplash -->
+  <path d="M925 482 L1319 487 L1319 500 L925 495 Z" fill="#d8d0be" stroke="#736653" stroke-width="1.8"/>
+  <path d="M940 500 L1303 505 V532 L940 527 Z" fill="#dde5df" stroke="#88978c" stroke-width="1"/>
+  <!-- cupboard divisions -->
+  <path d="M1008 500 V613 M1085 501 V613 M1163 502 V613 M1240 503 V613" stroke="#8aada8" stroke-width="2"/>
+  <circle cx="1000" cy="560" r="3" fill="#e1d2b7"/><circle cx="1077" cy="561" r="3" fill="#e1d2b7"/>
+  <circle cx="1155" cy="562" r="3" fill="#e1d2b7"/><circle cx="1232" cy="563" r="3" fill="#e1d2b7"/>
+  <!-- Sink and cooktop -->
+  <path d="M953 485 L1015 486 L1015 497 L953 496 Z" fill="#9db8b7" stroke="#596e6a" stroke-width="1.5"/>
+  <path d="M965 483 V476 Q985 462 1003 481" fill="none" stroke="#647f79" stroke-width="2.5"/>
+  <ellipse cx="1136" cy="491" rx="16" ry="4" fill="#4c4944"/><ellipse cx="1182" cy="492" rx="16" ry="4" fill="#4c4944"/>
+  <circle cx="1136" cy="489" r="2" fill="#d4bd91"/><circle cx="1182" cy="490" r="2" fill="#d4bd91"/>
+  <!-- Oven/fridge vertical -->
+  <rect x="1260" y="520" width="39" height="84" fill="#273b3d" stroke="#c7d6cf" stroke-width="2"/>
+  <rect x="1267" y="529" width="25" height="34" fill="#80999a"/>
+  <path d="M1264 574 H1295" stroke="#8ba2a0" stroke-width="2"/>
+  <text x="1173" y="638" text-anchor="middle" class="tiny">гал тогооны өндөр шүүгээ · суурин доор хадгалалт/тоноглол</text>
+  <!-- Range hood duct -->
+  <path d="M1157 446 V477 M1133 478 H1202 L1188 488 H1147 Z" fill="#9aa7a1" stroke="#58645d" stroke-width="2"/>
+  <path d="M1170 445 V395" stroke="#808a83" stroke-width="6"/>
+  <text x="1213" y="462" class="micro">сорох шүүгээ</text>
+
+  <!-- Open double-height lounge in foreground -->
+  <path d="M300 611 L839 609 L1091 743 L524 757 Z" fill="url(#floor)" stroke="#735339" stroke-width="2.5"/>
+  <path d="M300 611 L839 609 L1091 743 L524 757 Z" fill="url(#planks)" opacity=".72"/>
+  <!-- living rug -->
+  <path d="M380 627 L714 625 L900 715 L562 727 Z" fill="#d7d0c0" stroke="#ada18e" stroke-width="2"/>
+  <path d="M401 635 L703 633 L868 712 L566 720 Z" fill="#d4d9ce" opacity=".7"/>
+  <!-- sectional sofa -->
+  <path d="M431 626 L618 625 L747 688 L745 727 L560 732 L431 671 Z" fill="#a89a85" stroke="#6d6358" stroke-width="3"/>
+  <path d="M431 626 L618 625 L618 652 L431 653 Z" fill="#c8bba6" stroke="#76695b" stroke-width="2"/>
+  <path d="M618 625 L747 688 L747 712 L618 652 Z" fill="#b5a791" stroke="#76695b" stroke-width="2"/>
+  <path d="M447 657 L615 656 L615 703 L447 704 Z" fill="#d7ccba" stroke="#807567" stroke-width="1.5"/>
+  <path d="M618 659 L726 710 L726 718 L618 673 Z" fill="#d0c5b4" stroke="#807567" stroke-width="1.5"/>
+  <!-- coffee table -->
+  <path d="M681 684 L800 678 L850 702 L729 710 Z" fill="#d7b280" stroke="#785c3e" stroke-width="2"/>
+  <path d="M700 707 V726 M831 700 V718" stroke="#77583a" stroke-width="4"/>
+  <ellipse cx="765" cy="688" rx="17" ry="5" fill="#f1ece0"/>
+  <!-- TV on far wall? avoid below loft seating -->
+  <rect x="842" y="548" width="55" height="70" fill="#745338" stroke="#58412e" stroke-width="2"/>
+  <rect x="848" y="555" width="43" height="48" fill="#273536"/>
+  <text x="870" y="632" text-anchor="middle" class="micro">ТВ/номын тавиур</text>
+  <!-- dining table and chairs, between kitchen and lounge -->
+  <path d="M787 597 L906 583 L955 606 L834 623 Z" fill="#c89e6b" stroke="#765638" stroke-width="2"/>
+  <path d="M815 618 V645 M926 603 V631" stroke="#73583b" stroke-width="4"/>
+  <path d="M796 593 L776 584 L779 574 L805 584 Z M929 581 L949 574 L955 584 L936 592 Z" fill="#697f72" stroke="#516456" stroke-width="1.5"/>
+  <text x="869" y="654" text-anchor="middle" class="micro">дэлгэгддэг хоолны ширээ</text>
+
+  <!-- Wood feature wall and small decor -->
+  <path d="M780 180 L1365 308" stroke="#684a32" stroke-width="7"/>
+  <rect x="826" y="378" width="55" height="67" fill="#f1e6cf" stroke="#775b3f" stroke-width="3"/>
+  <rect x="833" y="385" width="41" height="52" fill="#6d8278"/>
+  <text x="851" y="458" text-anchor="middle" class="micro">чимэглэл</text>
+  <!-- floor cushions / plant -->
+  <ellipse cx="559" cy="742" rx="37" ry="10" fill="#7e5c3d" opacity=".25"/>
+  <path d="M534 719 Q559 703 584 719 Q580 739 559 742 Q538 739 534 719Z" fill="#728d7a" stroke="#526b58" stroke-width="1.5"/>
+  <path d="M558 714 Q552 693 539 687 M561 714 Q568 691 582 685 M558 715 Q559 692 559 679" stroke="#547451" stroke-width="3" fill="none"/>
+  <path d="M532 712 Q540 700 550 711 M565 705 Q577 696 585 708 M549 693 Q552 680 560 678" stroke="#799875" stroke-width="6"/>
+
+  <!-- Callout indicators -->
+  <rect x="75" y="155" width="275" height="60" rx="11" fill="#fffefa" fill-opacity=".94" stroke="#dce4da"/>
+  <text x="92" y="180" class="label">ӨНДӨР ШИЛЭН ФАСАД</text>
+  <text x="92" y="199" class="tiny">нар авдаг талд · дулаан шил, гадна сүүдрэвчтэй</text>
+  <path d="M259 216 L285 264" stroke="#5d7c72" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+  <rect x="1040" y="151" width="320" height="58" rx="11" fill="#fffefa" fill-opacity=".94" stroke="#dce4da"/>
+  <text x="1200" y="175" text-anchor="middle" class="label">УНТЛАГЫН МЕЗАНИН</text>
+  <text x="1200" y="194" text-anchor="middle" class="tiny">өндөр шүүгээ/гал тогооны дээр байрлана</text>
+  <path d="M1199 211 L1176 340" stroke="#5d7c72" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+  <rect x="103" y="782" width="285" height="54" rx="11" fill="#fffefa" fill-opacity=".94" stroke="#dce4da"/>
+  <text x="245" y="805" text-anchor="middle" class="label">ЗОЧНЫ ХЭСЭГ ДАВХАР ӨНДӨР</text>
+  <text x="245" y="823" text-anchor="middle" class="tiny">буйдангийн дээр мезанин байхгүй</text>
+  <path d="M389 795 L546 708" stroke="#5d7c72" stroke-width="1.8" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Notes -->
+  <rect x="35" y="925" width="1430" height="100" rx="17" fill="#30473b"/>
+  <text x="66" y="959" class="white" font-size="16" font-weight="700">ТӨЛӨВЛӨЛТИЙН ЗАСВАР</text>
+  <text x="66" y="985" class="pale" font-size="13">Зөв: унтлагын хэсэг гал тогооны өндөр шүүгээний дээгүүр · доор нь гал тогоо · буйдангийн тал давхар өндөр, задгай хэвээр.</text>
+  <text x="66" y="1008" fill="#c3d1c5" font-size="11">Энэ нь холбоосын зурагтай ижил байшинг хуулсан зураг биш, зөвхөн модон өнгө ба өндөр шиллэгээний санааг авсан концепц. Бодит өндөр, мезанины даац/гарц/хашлага, цонхны дулаан үзүүлэлтийг мэргэжлийн зураг төслөөр тооцно.</text>
+</svg>

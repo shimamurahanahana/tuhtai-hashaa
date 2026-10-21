@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="1100" viewBox="0 0 1020 1100" font-family="Arial, Helvetica, sans-serif">
+  <!-- Scale: 30 px = 1 m. Plot origin (point 2, north corner) at (90,170). Plot 28.02 m (x, road side) × 24.98 m (y). -->
+  <defs>
+    <pattern id="grid" width="150" height="150" patternUnits="userSpaceOnUse" x="90" y="170">
+      <path d="M150 0 H0 V150" fill="none" stroke="#9fb48f" stroke-width="1" stroke-dasharray="4 4"/>
+    </pattern>
+    <pattern id="gravel" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#ddd6c8"/><circle cx="2" cy="2" r="1" fill="#b9b0a0"/><circle cx="6" cy="5" r="1" fill="#c7bfb0"/>
+    </pattern>
+  </defs>
+
+  <rect width="1020" height="1100" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="90" y="42" font-size="24" font-weight="bold" fill="#2d3a2e">SITE PLAN · Parcel 4117033007 · Bayantsogt, Töv</text>
+  <text x="90" y="68" font-size="15" fill="#4a564b">Plot ≈ 28 m × 25 m ≈ 700 m² (from cadastral map) · layout to scale · grid = 5 m</text>
+
+  <!-- Road (north-east side) -->
+  <rect x="40" y="92" width="940" height="70" fill="#cfc7b6"/>
+  <text x="560" y="134" font-size="17" font-weight="bold" fill="#5c5446" letter-spacing="3">GRAVEL ROAD (NORTH-EAST SIDE)</text>
+
+  <!-- Plot ground + grid -->
+  <rect x="90" y="170" width="840" height="750" fill="#e9f1df"/>
+  <rect x="90" y="170" width="840" height="750" fill="url(#grid)"/>
+
+  <!-- Central lawn -->
+  <rect x="300" y="560" width="360" height="315" rx="40" fill="#bfdc9c"/>
+  <text x="400" y="840" font-size="14" fill="#47703a">OPEN LAWN</text>
+
+  <!-- Paths -->
+  <path d="M330 560 L675 545 L690 680 L675 884 L315 884 L300 560 Z" fill="none" stroke="#d9cdb4" stroke-width="22" stroke-linejoin="round"/>
+  <path d="M420 470 L520 500 L600 505 L720 500" fill="none" stroke="#d9cdb4" stroke-width="22" stroke-linecap="round"/>
+  <path d="M540 320 L600 420 L630 495" fill="none" stroke="#d9cdb4" stroke-width="22" stroke-linecap="round"/>
+  <path d="M300 640 L255 642" fill="none" stroke="#d9cdb4" stroke-width="22" stroke-linecap="round"/>
+  <path d="M300 815 L285 815" fill="none" stroke="#d9cdb4" stroke-width="22"/>
+  <path d="M675 605 L720 605" fill="none" stroke="#d9cdb4" stroke-width="22"/>
+
+  <!-- Parking / driveway -->
+  <rect x="315" y="172" width="225" height="178" fill="url(#gravel)" stroke="#a89f8c" stroke-width="1.5"/>
+  <rect x="390" y="200" width="54" height="135" rx="10" fill="#5d6470"/>
+  <rect x="465" y="200" width="54" height="135" rx="10" fill="#9aa3ad"/>
+  <text x="400" y="345" font-size="13" fill="#5c5446" font-weight="bold">PARKING 2 CARS</text>
+
+  <!-- Garage 6 × 4 m, door to parking -->
+  <rect x="120" y="200" width="180" height="120" fill="#6b5442" stroke="#3e2f24" stroke-width="2"/>
+  <rect x="296" y="220" width="8" height="80" fill="#2f2f2f"/>
+  <text x="150" y="255" font-size="15" font-weight="bold" fill="#fff">GARAGE</text>
+  <text x="150" y="275" font-size="13" fill="#f2e6d8">6 × 4 m · 1 car</text>
+
+  <!-- Main house 7 × 5.5 m -->
+  <rect x="345" y="395" width="75" height="135" fill="#c9a77f" stroke="#7d5c3c" stroke-width="1.5"/>
+  <text x="352" y="465" font-size="12" fill="#5b3f26">DECK</text>
+  <rect x="135" y="380" width="210" height="165" fill="#7a5a43" stroke="#3e2f24" stroke-width="2.5"/>
+  <line x1="240" y1="380" x2="240" y2="545" stroke="#5a4232" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="339" y="385" width="10" height="155" fill="#7fc4e6" stroke="#2f6f91" stroke-width="1.5"/>
+  <text x="152" y="445" font-size="16" font-weight="bold" fill="#fff">MAIN HOUSE</text>
+  <text x="152" y="466" font-size="14" fill="#f2e6d8">7 × 5.5 m · gable roof</text>
+  <text x="152" y="486" font-size="12" fill="#f2e6d8">mezzanine over kitchen</text>
+  <!-- Vestibule -->
+  <rect x="285" y="347" width="51" height="33" fill="#8f6c52" stroke="#3e2f24" stroke-width="2"/>
+  <text x="250" y="342" font-size="11" fill="#3e2f24" font-weight="bold">ENTRY VESTIBULE</text>
+  <text x="352" y="560" font-size="12" fill="#2f6f91" font-weight="bold">◄ GLASS GABLE</text>
+  <text x="352" y="574" font-size="12" fill="#2f6f91">faces SSE (sun)</text>
+
+  <!-- Ger 6 m -->
+  <circle cx="720" cy="380" r="90" fill="#f7f5ef" stroke="#a39b88" stroke-width="3"/>
+  <circle cx="720" cy="330" r="12" fill="#c9a77f"/>
+  <rect x="708" y="466" width="24" height="10" fill="#c98a3a"/>
+  <text x="672" y="372" font-size="15" font-weight="bold" fill="#4a4537">GUEST GER</text>
+  <text x="674" y="392" font-size="13" fill="#4a4537">Ø 6 m · 6 beds</text>
+
+  <!-- Toilet + shower behind ger -->
+  <rect x="834" y="200" width="72" height="48" fill="#8b6a4e" stroke="#3e2f24" stroke-width="2"/>
+  <line x1="870" y1="200" x2="870" y2="248" stroke="#3e2f24" stroke-width="1.5"/>
+  <text x="815" y="270" font-size="12" font-weight="bold" fill="#3e2f24">BIO-WC + SHOWER</text>
+
+  <!-- BBQ shelter 4 × 3.5 m -->
+  <rect x="135" y="590" width="120" height="105" fill="#d7b98f" stroke="#7d5c3c" stroke-width="2"/>
+  <rect x="135" y="590" width="10" height="105" fill="#8e4b36"/>
+  <rect x="150" y="600" width="40" height="22" fill="#a3543b"/>
+  <rect x="170" y="640" width="70" height="35" fill="#9b7550"/>
+  <text x="152" y="712" font-size="13" font-weight="bold" fill="#5b3f26">BBQ SHELTER</text>
+  <text x="152" y="727" font-size="11" fill="#5b3f26">windbreak wall · brick grill</text>
+
+  <!-- Play area 5 × 4 m -->
+  <rect x="135" y="755" width="150" height="120" fill="#6aa07a" stroke="#3f6e4e" stroke-width="2"/>
+  <rect x="150" y="770" width="45" height="40" fill="#e8d39b"/>
+  <line x1="215" y1="770" x2="270" y2="770" stroke="#333" stroke-width="3"/>
+  <rect x="215" y="825" width="55" height="14" fill="#5ab05a"/>
+  <text x="150" y="864" font-size="13" font-weight="bold" fill="#fff">PLAY AREA</text>
+
+  <!-- Rock water feature -->
+  <circle cx="510" cy="620" r="45" fill="#8cc6dc" stroke="#7b7b7b" stroke-width="6" stroke-dasharray="10 6"/>
+  <text x="468" y="690" font-size="12" font-weight="bold" fill="#2f6f91">ROCK POND Ø3 m</text>
+
+  <!-- Greenhouse 6 × 3 m -->
+  <rect x="720" y="560" width="180" height="90" fill="#e3f3f6" stroke="#6b9aa6" stroke-width="2.5"/>
+  <line x1="720" y1="605" x2="900" y2="605" stroke="#6b9aa6" stroke-width="1.5"/>
+  <text x="755" y="600" font-size="14" font-weight="bold" fill="#3d6b77">GREENHOUSE</text>
+  <text x="772" y="625" font-size="12" fill="#3d6b77">6 × 3 m</text>
+
+  <!-- Rain tank -->
+  <circle cx="894" cy="515" r="21" fill="#3f6b4f" stroke="#244030" stroke-width="2"/>
+  <text x="800" y="520" font-size="11" fill="#244030" font-weight="bold">RAIN TANK</text>
+
+  <!-- Raised beds -->
+  <rect x="720" y="695" width="180" height="30" fill="#8a6a46" stroke="#5b3f26"/>
+  <rect x="720" y="740" width="180" height="30" fill="#8a6a46" stroke="#5b3f26"/>
+  <rect x="720" y="785" width="180" height="30" fill="#8a6a46" stroke="#5b3f26"/>
+  <rect x="720" y="830" width="180" height="30" fill="#8a6a46" stroke="#5b3f26"/>
+  <text x="742" y="881" font-size="13" font-weight="bold" fill="#5b3f26">4 RAISED VEG BEDS</text>
+
+  <!-- Windbreak trees: north-west (left) and south-west (bottom) fences -->
+  <g fill="#3f7a46" stroke="#2b5631" stroke-width="1.5">
+    <circle cx="108" cy="380" r="16"/><circle cx="108" cy="420" r="16"/><circle cx="108" cy="460" r="16"/><circle cx="108" cy="500" r="16"/><circle cx="108" cy="540" r="16"/><circle cx="108" cy="580" r="16"/><circle cx="108" cy="620" r="16"/><circle cx="108" cy="660" r="16"/><circle cx="108" cy="700" r="16"/><circle cx="108" cy="740" r="16"/><circle cx="108" cy="780" r="16"/><circle cx="108" cy="820" r="16"/><circle cx="108" cy="860" r="16"/><circle cx="108" cy="900" r="16"/>
+    <circle cx="150" cy="902" r="16"/><circle cx="195" cy="902" r="16"/><circle cx="240" cy="902" r="16"/><circle cx="285" cy="902" r="16"/><circle cx="330" cy="902" r="16"/><circle cx="375" cy="902" r="16"/><circle cx="420" cy="902" r="16"/><circle cx="465" cy="902" r="16"/><circle cx="510" cy="902" r="16"/><circle cx="555" cy="902" r="16"/><circle cx="600" cy="902" r="16"/><circle cx="645" cy="902" r="16"/>
+  </g>
+  <!-- Berry bushes -->
+  <g fill="#c0603e" stroke="#7d3a24" stroke-width="1">
+    <circle cx="700" cy="902" r="11"/><circle cx="740" cy="902" r="11"/><circle cx="780" cy="902" r="11"/><circle cx="820" cy="902" r="11"/><circle cx="860" cy="902" r="11"/><circle cx="905" cy="902" r="11"/>
+    <circle cx="912" cy="330" r="11"/><circle cx="912" cy="370" r="11"/><circle cx="912" cy="410" r="11"/><circle cx="912" cy="450" r="11"/>
+  </g>
+  <text x="112" y="955" font-size="12" fill="#2b5631">▲ windbreak tree rows (NW + SW fences)</text>
+
+  <!-- Fence (plot boundary) -->
+  <rect x="90" y="170" width="840" height="750" fill="none" stroke="#7d5c3c" stroke-width="6"/>
+  <!-- Gates -->
+  <rect x="330" y="164" width="120" height="12" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/>
+  <text x="340" y="190" font-size="0"> </text>
+  <rect x="480" y="164" width="30" height="12" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/>
+  <text x="318" y="88" font-size="13" font-weight="bold" fill="#2f2f2f">▼ CAR GATE 4 m</text>
+  <text x="470" y="88" font-size="13" font-weight="bold" fill="#2f2f2f">▼ FOOT GATE</text>
+
+  <!-- Corner points -->
+  <g font-size="16" font-weight="bold" fill="#c62828">
+    <text x="72" y="700" font-size="14" transform="rotate(-90 72 700)">NEIGHBOUR PLOT 4117033010</text>
+  </g>
+
+  <!-- Dimensions -->
+  <g stroke="#333" stroke-width="1.5">
+    <line x1="90" y1="975" x2="930" y2="975"/><line x1="90" y1="965" x2="90" y2="985"/><line x1="930" y1="965" x2="930" y2="985"/>
+    <line x1="968" y1="170" x2="968" y2="920"/><line x1="958" y1="170" x2="978" y2="170"/><line x1="958" y1="920" x2="978" y2="920"/>
+  </g>
+  <rect x="465" y="965" width="90" height="20" fill="#fff"/>
+  <text x="478" y="981" font-size="16" font-weight="bold" fill="#333">≈ 28 m</text>
+  <rect x="958" y="505" width="20" height="80" fill="#fff"/>
+  <text x="975" y="580" font-size="16" font-weight="bold" fill="#333" transform="rotate(-90 975 580)">≈ 25 m</text>
+
+  <!-- Scale bar -->
+  <g transform="translate(90,1020)">
+    <rect x="0" y="0" width="150" height="10" fill="#333"/><rect x="150" y="0" width="150" height="10" fill="#fff" stroke="#333"/>
+    <text x="0" y="30" font-size="13" fill="#333">0</text><text x="142" y="30" font-size="13" fill="#333">5 m</text><text x="285" y="30" font-size="13" fill="#333">10 m</text>
+  </g>
+
+  <!-- North arrow: drawing "up" = bearing 58.5° (NE), so true north is rotated 58.5° counter-clockwise -->
+  <g transform="translate(870,1040) rotate(-58.5)">
+    <circle cx="0" cy="0" r="30" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <path d="M0 -26 L9 8 L0 2 L-9 8 Z" fill="#c62828"/>
+
+  </g>
+  <text x="827" y="1003" font-size="16" font-weight="bold" fill="#c62828">N</text>
+  <text x="560" y="1035" font-size="13" fill="#333">Sun side = right fence (SSE)</text>
+  <text x="560" y="1055" font-size="13" fill="#333">Prevailing wind from NW = left</text>
+</svg>

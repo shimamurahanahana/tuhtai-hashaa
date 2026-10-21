@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="1300" viewBox="0 0 1800 1300" role="img" aria-labelledby="title desc" style="display:block;max-width:1800px;height:auto">
+  <title id="title">Баянцогт сумын амины сууцны хэмжээтэй концепц план ба гадна төрхийн 3D дүрслэл</title>
+  <desc id="desc">Таван бүхэл таван аравны долоон метрийн жишиг суурьтай, хоёр хүний жилийн сууцны газрын давхар, мезанины схем, зүсэлт ба стилизован гадна 3D дүрслэл.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f6ef"/>
+      <stop offset="1" stop-color="#e8eee6"/>
+    </linearGradient>
+    <linearGradient id="wallFront" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#d9b78a"/>
+      <stop offset="1" stop-color="#b9895e"/>
+    </linearGradient>
+    <linearGradient id="wallSide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bd8c62"/>
+      <stop offset="1" stop-color="#976846"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#775344"/>
+      <stop offset="1" stop-color="#4e3b34"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9f0ed"/>
+      <stop offset="1" stop-color="#83b3b3"/>
+    </linearGradient>
+    <pattern id="wood" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0 4 H14 M0 11 H14" stroke="#8b6548" stroke-width=".8" opacity=".24"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="7" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".2"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="dim" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse">
+      <path d="M8 0 L0 4 L8 8" fill="none" stroke="#536a5b" stroke-width="1.2"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #293b34; }
+      .title { font-size: 32px; font-weight: 750; }
+      .subtitle { font-size: 15px; fill: #62756a; }
+      .head { font-size: 19px; font-weight: 700; }
+      .label { font-size: 12px; font-weight: 700; }
+      .room { font-size: 13px; font-weight: 700; }
+      .small { font-size: 11px; fill: #52665a; }
+      .tiny { font-size: 9px; fill: #5e7065; }
+      .card { fill: #fffefa; stroke: #dbe3d9; stroke-width: 1.4; }
+      .wall { stroke: #516958; stroke-width: 6; fill: none; }
+      .thinwall { stroke: #849381; stroke-width: 2; fill: none; }
+      .dimline { stroke: #536a5b; stroke-width: 1.1; marker-start: url(#dim); marker-end: url(#dim); }
+      .white { fill: #fff; }
+      .pale { fill: #e7eee7; }
+      .mutedwhite { fill: #c3d1c5; }
+    </style>
+  </defs>
+  <rect width="1800" height="1300" fill="url(#bg)"/>
+  <circle cx="1590" cy="100" r="145" fill="#fff0c9" opacity=".38"/>
+  <text x="50" y="58" class="title">БАЯНЦОГТ · БАЙШИНГИЙН ПЛАН + ГАДНА ТӨРХИЙН 3D</text>
+  <text x="53" y="88" class="subtitle">Нэгж талбар № 41703307 · 2 хүний жилийн сууц · зуны зочны байр тусдаа · урьдчилсан хэмжээт концепц</text>
+  <rect x="1458" y="38" width="290" height="36" rx="18" fill="#e5eee4"/>
+  <text x="1603" y="61" text-anchor="middle" class="small" font-weight="700">5.5 × 7 м СУУРЬ · ~38.5 м²</text>
+
+  <!-- Main floor plan card -->
+  <rect x="40" y="120" width="790" height="855" rx="20" class="card"/>
+  <text x="68" y="160" class="head">1 · ГАЗРЫН ДАВХРЫН ХЭМЖЭЭТ КОНЦЕПЦ</text>
+  <text x="68" y="182" class="small">Урд талыг доош гэж авлаа · гадна хэмжээ жишиг, ханын зузааныг эцсийн тооцоогоор тогтооно</text>
+
+  <!-- Plan dimensions: 5.5m = 440px, 7m=560px -->
+  <rect x="205" y="275" width="440" height="560" fill="#f7f3e9" stroke="#516958" stroke-width="9"/>
+  <!-- Room backgrounds -->
+  <rect x="210" y="280" width="435" height="165" fill="#e9e6dc"/>
+  <rect x="210" y="450" width="435" height="380" fill="#f5e8d1"/>
+  <!-- Bathroom -->
+  <rect x="501" y="282" width="140" height="158" fill="#dce8dd" stroke="#778675" stroke-width="2"/>
+  <text x="571" y="303" text-anchor="middle" class="room">УГААЛГЫН ӨРӨӨ</text>
+  <text x="571" y="318" text-anchor="middle" class="tiny">ойролцоогоор 1.75 × 2.0 м</text>
+  <!-- Shower -->
+  <rect x="512" y="329" width="51" height="48" rx="3" fill="#bfd8d6" stroke="#7a9997" stroke-width="1.5"/>
+  <path d="M519 336 L556 370 M556 336 L519 370" stroke="#8aacab" stroke-width="1"/>
+  <text x="537" y="392" text-anchor="middle" class="tiny">шүршүүр</text>
+  <!-- WC -->
+  <ellipse cx="608" cy="350" rx="17" ry="21" fill="#fff" stroke="#7d8c7d" stroke-width="1.5"/>
+  <rect x="596" y="327" width="24" height="9" rx="3" fill="#fff" stroke="#7d8c7d" stroke-width="1.2"/>
+  <text x="608" y="392" text-anchor="middle" class="tiny">ус бага таталттай</text>
+  <rect x="520" y="402" width="45" height="24" rx="4" fill="#fff" stroke="#7d8c7d" stroke-width="1.2"/>
+  <text x="542" y="418" text-anchor="middle" font-size="8" fill="#5e7065">угаалтуур</text>
+
+  <!-- Kitchen counter north and east -->
+  <rect x="225" y="289" width="258" height="43" rx="4" fill="#b5a187" stroke="#776952" stroke-width="1.5"/>
+  <text x="354" y="306" text-anchor="middle" class="tiny" font-weight="700">НЭГ ШУГАМЫН ГАЛ ТОГООНЫ ӨНДӨР ШҮҮГЭЭ</text>
+  <text x="354" y="322" text-anchor="middle" font-size="8.5" fill="#53665b">угаалтуур · аяга угаагч · бэлтгэх тавцан</text>
+  <rect x="225" y="338" width="70" height="85" rx="4" fill="#d3e0df" stroke="#748b8b" stroke-width="1.6"/>
+  <text x="260" y="370" text-anchor="middle" class="tiny">хөргөгч +</text>
+  <text x="260" y="385" text-anchor="middle" class="tiny">хөлдөөгч</text>
+  <rect x="304" y="338" width="73" height="85" rx="4" fill="#d5c3aa" stroke="#88765f" stroke-width="1.5"/>
+  <text x="340" y="368" text-anchor="middle" class="tiny">шарах</text>
+  <text x="340" y="383" text-anchor="middle" class="tiny">шүүгээ / печ</text>
+  <rect x="386" y="338" width="91" height="85" rx="4" fill="#e5d5ba" stroke="#a58a63" stroke-width="1.5"/>
+  <circle cx="408" cy="360" r="9" fill="#685947"/><circle cx="451" cy="360" r="9" fill="#685947"/>
+  <circle cx="408" cy="394" r="9" fill="#685947"/><circle cx="451" cy="394" r="9" fill="#685947"/>
+  <text x="431" y="417" text-anchor="middle" font-size="8.5" fill="#53665b">хийн плитка + соролт</text>
+  <!-- Small appliance pantry -->
+  <rect x="225" y="432" width="252" height="31" rx="3" fill="#cbbda7" stroke="#8a795f" stroke-width="1.3"/>
+  <text x="351" y="452" text-anchor="middle" class="tiny">агшаагч · миксер · битүү чанагч · жижиг хэрэгслийн тавиур</text>
+  <!-- Mezzanine footprint overlay -->
+  <rect x="215" y="280" width="275" height="270" rx="8" fill="#8ca48e" opacity=".10" stroke="#59765e" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <rect x="223" y="337" width="257" height="34" rx="7" fill="#fffefa" fill-opacity=".95" stroke="#91a493" stroke-width="1"/>
+  <text x="351" y="351" text-anchor="middle" class="tiny" font-weight="700" fill="#486b51">ДЭЭР: УНТЛАГЫН МЕЗАНИН · ~12–15 м²</text>
+  <text x="351" y="364" text-anchor="middle" font-size="8.2" fill="#486b51">гал тогоо/өндөр шүүгээний тал дээр · зочны өрөө нээлттэй</text>
+
+  <!-- Living area seating -->
+  <text x="424" y="486" text-anchor="middle" class="room">ДАВХАР ӨНДӨР ЗОЧНЫ ХЭСЭГ</text>
+  <text x="424" y="502" text-anchor="middle" class="tiny">хоол + амралт нэг нээлттэй орон зай</text>
+  <rect x="232" y="537" width="122" height="58" rx="16" fill="#91a699" stroke="#647a6b" stroke-width="2"/>
+  <rect x="232" y="600" width="122" height="24" rx="9" fill="#7e9588" stroke="#647a6b" stroke-width="1.5"/>
+  <text x="293" y="571" text-anchor="middle" class="small" font-weight="700">2–3 хүний буйдан</text>
+  <rect x="370" y="549" width="110" height="64" rx="5" fill="#c9a26e" stroke="#8c6842" stroke-width="2"/>
+  <text x="425" y="576" text-anchor="middle" class="small" font-weight="700">хооллох ширээ</text>
+  <text x="425" y="593" text-anchor="middle" class="tiny">4–6 суудалтай дэлгэгддэг</text>
+  <rect x="529" y="526" width="72" height="95" rx="5" fill="#a77b57" stroke="#76583d" stroke-width="2"/>
+  <rect x="538" y="537" width="54" height="55" rx="3" fill="#cfa475" stroke="#76583d" stroke-width="1.2"/>
+  <text x="565" y="640" text-anchor="middle" class="tiny">битүү зуух</text>
+  <text x="565" y="654" text-anchor="middle" class="tiny">яндан тооцоогоор</text>
+  <rect x="388" y="669" width="188" height="75" rx="5" fill="#e3d4b8" stroke="#b59b6f" stroke-width="1.4"/>
+  <text x="482" y="700" text-anchor="middle" class="room">чөлөөтэй хөдөлгөөний бүс</text>
+  <text x="482" y="719" text-anchor="middle" class="tiny">хадгалалтыг хана/шатны доор шийднэ</text>
+  <!-- Stair to loft -->
+  <path d="M226 620 H335 V746 H226 Z" fill="#d8c4a1" stroke="#8a7557" stroke-width="1.5"/>
+  <path d="M237 735 L324 631" stroke="#745b40" stroke-width="4"/>
+  <g stroke="#927957" stroke-width="2">
+    <path d="M235 727 L252 739"/><path d="M250 709 L267 721"/><path d="M265 691 L282 703"/>
+    <path d="M280 673 L297 685"/><path d="M295 655 L312 667"/><path d="M309 638 L326 650"/>
+  </g>
+  <text x="280" y="741" text-anchor="middle" class="tiny">мезанин руу шат</text>
+  <!-- Entry vestibule -->
+  <rect x="210" y="752" width="139" height="78" fill="#e0e8dd" stroke="#899884" stroke-width="1.5"/>
+  <text x="279" y="768" text-anchor="middle" class="tiny" font-weight="700">ТАМБУР · 1.7 × 1.1 м орчим</text>
+  <rect x="219" y="779" width="68" height="22" rx="3" fill="#b9a78e"/>
+  <text x="253" y="794" text-anchor="middle" font-size="8" fill="#fff">гутлын шүүгээ</text>
+  <rect x="293" y="778" width="47" height="34" rx="3" fill="#c7b69f"/>
+  <text x="316" y="793" text-anchor="middle" font-size="7.5" fill="#53665b">өлгүүр</text>
+  <!-- Entry door swing -->
+  <path d="M349 810 A36 36 0 0 1 384 774" fill="none" stroke="#59735e" stroke-width="1.3"/>
+  <path d="M349 810 L382 778" stroke="#59735e" stroke-width="2"/>
+  <text x="386" y="797" class="tiny">гадагш онгойх/тамбурын хаалга</text>
+
+  <!-- South glazed facade -->
+  <path d="M365 829 V835 M462 829 V835 M551 829 V835 M606 829 V835" stroke="#75a4a7" stroke-width="10"/>
+  <text x="478" y="858" text-anchor="middle" class="tiny">УРД: давхар өндөр, дулаан шиллэгээ + гадна сүүдрэвч</text>
+
+  <!-- Dimension annotations -->
+  <line x1="205" y1="250" x2="645" y2="250" class="dimline"/>
+  <line x1="205" y1="256" x2="205" y2="270" stroke="#536a5b"/>
+  <line x1="645" y1="256" x2="645" y2="270" stroke="#536a5b"/>
+  <rect x="388" y="233" width="75" height="23" rx="10" fill="#fffefa"/>
+  <text x="425" y="249" text-anchor="middle" class="label">5.50 м</text>
+  <line x1="672" y1="275" x2="672" y2="835" class="dimline"/>
+  <line x1="651" y1="275" x2="681" y2="275" stroke="#536a5b"/>
+  <line x1="651" y1="835" x2="681" y2="835" stroke="#536a5b"/>
+  <rect x="655" y="538" width="36" height="32" rx="8" fill="#fffefa"/>
+  <text x="674" y="558" text-anchor="middle" class="label" transform="rotate(-90 674 558)">7.00 м</text>
+  <text x="68" y="906" class="small">Тооцоолсон газрын давхар: ~38.5 м² · Мезанин: ойролцоогоор 12–15 м² · Цэвэр дотор талбай ханын зузаанаас шалтгаална.</text>
+  <text x="68" y="928" class="tiny">Тавилга/тоноглолын байрлал концепц; хаалга, цонх, зуух, шатны эцсийн хэмжээ болон гарц, толгой хүрэх өндөр мэргэжлийн зургаар баталгаажина.</text>
+
+  <!-- Loft inset -->
+  <rect x="855" y="120" width="415" height="310" rx="20" class="card"/>
+  <text x="881" y="160" class="head">2 · МЕЗАНИНЫ СХЕМ</text>
+  <text x="881" y="182" class="small">Гал тогооны өндөр шүүгээний дээгүүр · зочны өрөөнөөс тусдаа унтлагын бүс</text>
+  <rect x="894" y="212" width="329" height="159" rx="4" fill="#eef1e7" stroke="#526958" stroke-width="4"/>
+  <rect x="913" y="232" width="235" height="101" rx="7" fill="#d4c0a0" stroke="#9d8058" stroke-width="2"/>
+  <rect x="930" y="245" width="202" height="74" rx="20" fill="#f7f3e9" stroke="#aa9c87" stroke-width="2"/>
+  <text x="1030" y="286" text-anchor="middle" class="room">намхан платформ ор</text>
+  <text x="1030" y="303" text-anchor="middle" class="tiny">доор хадгалах шургуулга</text>
+  <rect x="1157" y="232" width="47" height="101" rx="4" fill="#b7a58a" stroke="#8b795f" stroke-width="1.5"/>
+  <text x="1180" y="278" text-anchor="middle" class="tiny" transform="rotate(-90 1180 278)">намхан шүүгээ</text>
+  <path d="M912 347 L954 318 M926 355 L968 326 M940 363 L982 334" stroke="#7a6b55" stroke-width="3"/>
+  <text x="1058" y="357" text-anchor="middle" class="tiny">хамгаалалтын хашлага · тогтвортой шат</text>
+  <text x="881" y="399" class="small">Өндөр хэсэгт унтлагын орон зай; зочны өрөөний урд хэсэг давхар өндөр хэвээр.</text>
+
+  <!-- Exterior rendering card -->
+  <rect x="855" y="450" width="895" height="525" rx="20" class="card"/>
+  <text x="881" y="490" class="head">3 · ГАДНА ТӨРХИЙН 3D ХАРАГДАЦ</text>
+  <text x="881" y="512" class="small">Монгол уулын cabin + Япон минимал өнгө аястай, энгийн мод/чулууны хослол</text>
+  <!-- Render sky and ground -->
+  <rect x="881" y="532" width="844" height="401" rx="12" fill="#eaf1ed"/>
+  <circle cx="1556" cy="594" r="41" fill="#f5cf74" opacity=".9"/>
+  <path d="M881 733 Q1017 670 1123 725 Q1273 644 1398 707 Q1530 649 1725 725 V933 H881 Z" fill="#d5e1d0"/>
+  <path d="M881 781 Q1050 718 1160 760 Q1330 701 1449 765 Q1600 711 1725 762 V933 H881 Z" fill="#bdcfb6"/>
+  <!-- house shadow -->
+  <path d="M1000 750 L1358 680 L1600 770 L1240 857 Z" fill="#7e8c7e" opacity=".23"/>
+  <!-- structure 3D walls -->
+  <g filter="url(#shadow)">
+    <!-- left/front long facade -->
+    <path d="M1024 660 L1280 754 L1280 854 L1024 760 Z" fill="url(#wallFront)" stroke="#614c3a" stroke-width="3"/>
+    <path d="M1024 660 L1280 754 L1280 854 L1024 760 Z" fill="url(#wood)" opacity=".65"/>
+    <!-- right facade -->
+    <path d="M1280 754 L1535 654 L1535 754 L1280 854 Z" fill="url(#wallSide)" stroke="#614c3a" stroke-width="3"/>
+    <path d="M1280 754 L1535 654 L1535 754 L1280 854 Z" fill="url(#wood)" opacity=".45"/>
+    <!-- gables -->
+    <path d="M1024 660 L1153 557 L1280 660 L1280 754 Z" fill="#d8b48a" stroke="#614c3a" stroke-width="3"/>
+    <path d="M1280 660 L1408 557 L1535 654 L1535 654 L1280 754 Z" fill="#b98458" stroke="#614c3a" stroke-width="3"/>
+    <!-- roof -->
+    <path d="M994 657 L1151 528 L1310 648 L1280 670 L1153 571 L1044 669 Z" fill="url(#roof)" stroke="#493931" stroke-width="3"/>
+    <path d="M1151 528 L1570 640 L1536 667 L1310 648 L1280 670 Z" fill="#59433a" stroke="#493931" stroke-width="3"/>
+  </g>
+  <!-- Front picture glazing -->
+  <path d="M1051 681 L1255 756 L1255 822 L1051 747 Z" fill="url(#glass)" stroke="#684f3c" stroke-width="3"/>
+  <path d="M1118 706 V772 M1186 731 V797 M1052 713 L1255 788" stroke="#f4efdf" stroke-width="3"/>
+  <!-- Sliding front door -->
+  <path d="M1262 758 L1305 742 V830 L1262 847 Z" fill="#745a40" stroke="#4e3f31" stroke-width="2"/>
+  <path d="M1271 774 L1296 765 V820 L1271 829 Z" fill="#a9875e"/>
+  <circle cx="1290" cy="799" r="2.5" fill="#f1cf77"/>
+  <!-- Side window -->
+  <path d="M1357 719 L1435 689 V741 L1357 771 Z" fill="#b6dad9" stroke="#644e3c" stroke-width="2.5"/>
+  <path d="M1396 704 V756" stroke="#f2eddf" stroke-width="2"/>
+  <!-- Roof overhang / fascia -->
+  <path d="M994 657 L1024 660 M1310 648 L1280 660 M1570 640 L1535 654" stroke="#382e29" stroke-width="8"/>
+  <!-- Stone base -->
+  <path d="M1024 748 L1280 842 L1280 854 L1024 760 Z" fill="#82786a" opacity=".88"/>
+  <path d="M1280 842 L1535 742 V754 L1280 854 Z" fill="#6e675c" opacity=".9"/>
+  <g fill="#9b9282" opacity=".7">
+    <path d="M1038 751 l22 8 -2 9 -20 -8z"/><path d="M1070 763 l22 8 -2 9 -20 -8z"/>
+    <path d="M1101 775 l23 8 -2 9 -21 -8z"/><path d="M1134 787 l23 8 -2 9 -21 -8z"/>
+    <path d="M1166 799 l23 8 -2 9 -21 -8z"/><path d="M1198 811 l23 8 -2 9 -21 -8z"/>
+  </g>
+  <!-- Chimney and roof solar panel -->
+  <path d="M1454 568 L1454 514 L1490 504 L1490 580" fill="#776657" stroke="#51483e" stroke-width="2"/>
+  <path d="M1448 515 L1495 502 L1495 511 L1448 524 Z" fill="#5c5349"/>
+  <path d="M1330 581 L1393 563 L1439 576 L1375 595 Z" fill="#456a72" stroke="#344f55" stroke-width="2"/>
+  <path d="M1352 575 L1396 588 M1373 568 L1418 581" stroke="#a6d2d5" stroke-width="1.5"/>
+  <!-- Porch / steps -->
+  <path d="M1239 849 L1320 819 L1367 837 L1281 870 Z" fill="#a88b69" stroke="#6d5843" stroke-width="2"/>
+  <path d="M1260 868 L1322 845 L1350 856 L1285 881 Z" fill="#bc9e77" stroke="#6d5843" stroke-width="1.7"/>
+  <path d="M1274 884 L1329 863 L1341 868 L1287 891 Z" fill="#d0b28a" stroke="#6d5843" stroke-width="1.5"/>
+  <!-- Landscaping -->
+  <path d="M902 867 Q1088 846 1215 885 Q1393 915 1698 849" fill="none" stroke="#a7bc98" stroke-width="17" stroke-linecap="round"/>
+  <g>
+    <g transform="translate(965 745) scale(.7)">
+      <path d="M0 25 V76" stroke="#765a3e" stroke-width="10"/>
+      <circle cx="-20" cy="11" r="27" fill="#78986e"/><circle cx="7" cy="-3" r="31" fill="#8dab7e"/><circle cx="29" cy="12" r="25" fill="#729269"/>
+    </g>
+    <g transform="translate(1596 737) scale(.62)">
+      <path d="M0 25 V76" stroke="#765a3e" stroke-width="10"/>
+      <circle cx="-20" cy="11" r="27" fill="#78986e"/><circle cx="7" cy="-3" r="31" fill="#8dab7e"/><circle cx="29" cy="12" r="25" fill="#729269"/>
+    </g>
+  </g>
+  <text x="1303" y="913" text-anchor="middle" class="tiny">зураглалын дүрслэл · өнгө/цонх/дээврийг хэрэглэгчтэй тохирч шинэчилнэ</text>
+
+  <!-- Section strip -->
+  <rect x="855" y="995" width="895" height="250" rx="20" class="card"/>
+  <text x="881" y="1034" class="head">4 · ЗҮСЭЛТ БА ӨРӨӨНИЙ ЗАРЧИМ</text>
+  <path d="M900 1188 L1015 1057 L1130 1188 Z" fill="#e8d7bd" stroke="#755f49" stroke-width="2.5"/>
+  <path d="M910 1180 L1015 1067 L1120 1180 Z" fill="#faf6ed" stroke="#7c6c55" stroke-width="1.5"/>
+  <line x1="900" y1="1188" x2="1130" y2="1188" stroke="#516958" stroke-width="5"/>
+  <rect x="942" y="1133" width="112" height="55" fill="#d8c2a0" stroke="#8b7759" stroke-width="1.4"/>
+  <rect x="955" y="1141" width="85" height="34" rx="10" fill="#f5efe2"/>
+  <text x="998" y="1162" text-anchor="middle" class="tiny">унтлагын мезанин</text>
+  <rect x="924" y="1172" width="38" height="16" fill="#c9ad83"/>
+  <rect x="1065" y="1166" width="24" height="22" fill="#986b48"/>
+  <path d="M1129 1085 V1173" stroke="#806d55" stroke-width="1.5"/>
+  <path d="M1124 1085 H1135 M1124 1173 H1135" stroke="#806d55" stroke-width="1.5"/>
+  <text x="1143" y="1134" class="tiny">гал тогооны тал</text>
+  <text x="1143" y="1150" class="tiny">дээр унтлагын</text>
+  <text x="1143" y="1166" class="tiny">мезанин гарна</text>
+  <text x="881" y="1217" class="tiny">Мезанин гал тогооны өндөр шүүгээний талын дээр; зочны буйдангийн хэсэг нээлттэй, давхар өндөр хэвээр. Өндөр/шат/янданг инженер тооцно.</text>
+
+  <!-- Specs sidebar -->
+  <rect x="855" y="1200" width="895" height="0" fill="none"/>
+  <rect x="40" y="995" width="790" height="250" rx="20" class="card"/>
+  <text x="68" y="1034" class="head">5 · ТӨЛӨВЛӨЛТИЙН ТОВЧ ҮЗҮҮЛЭЛТ</text>
+  <line x1="420" y1="1050" x2="420" y2="1224" stroke="#dce3d9" stroke-width="1.5"/>
+  <text x="68" y="1072" class="label">ТАЛБАЙН ХЭМЖЭЭ</text>
+  <text x="68" y="1094" class="small">Газрын давхар: 5.5 × 7.0 м ≈ 38.5 м²</text>
+  <text x="68" y="1117" class="small">Мезанин: ойролцоогоор 12–15 м²</text>
+  <text x="68" y="1140" class="small">Хоёр хүний байнгын хэрэглээ</text>
+  <text x="68" y="1163" class="small">Зочны дээд ачаалал 6 — тусдаа улирлын байр</text>
+  <text x="68" y="1207" class="tiny">Хэмжээг зураг төслийн шатанд засаж болно.</text>
+  <text x="448" y="1072" class="label">ЗААВАЛ ШИЙДЭХ ТЕХНИКИЙН АСУУДАЛ</text>
+  <text x="448" y="1094" class="small">• Урд шиллэгээний дулаан алдагдал ба сүүдрэвч</text>
+  <text x="448" y="1117" class="small">• Битүүмжлэл + зохицуулалттай цэвэр агаар</text>
+  <text x="448" y="1140" class="small">• Зуух, яндан, шат ба мезанины аюулгүй байдал</text>
+  <text x="448" y="1163" class="small">• Суурь, хөрсний ус, налуу ба борооны ус зайлуулалт</text>
+  <text x="448" y="1207" class="tiny">Албан ёсны барилгын зураг биш · тусгай зөвшөөрөлтэй баг батална.</text>
+
+  <!-- Footer band -->
+  <rect x="40" y="1260" width="1710" height="28" rx="12" fill="#30473b"/>
+  <text x="60" y="1279" class="white" font-size="11" font-weight="700">ДАРААГИЙН АЛХАМ: ӨРӨӨНИЙ ХЭМЖЭЭГ ТОХИРОХ → ФАСАДНЫ МАТЕРИАЛ/ӨНГӨ СОНГОХ → ХАШААНЫ БАЙРЛАЛТАЙ УЯЛДУУЛАХ → ИНЖЕНЕР, ТӨСӨВ.</text>
+</svg>

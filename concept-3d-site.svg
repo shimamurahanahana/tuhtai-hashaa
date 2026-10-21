@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="1200" viewBox="0 0 1800 1200" role="img" aria-labelledby="title desc" style="display:block;max-width:1800px;height:auto">
+  <title id="title">Баянцогт сумын амины сууц ба цэцэрлэгийн 3D концепц</title>
+  <desc id="desc">0.7 га газрын төлөвлөлтийн ярилцлагын мэдээлэлд тулгуурласан ерөнхий аксонометр 3D дүрслэл. Хэмжээ, налуу, чиглэл нь баталгаажаагүй.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f5ee"/>
+      <stop offset="1" stop-color="#e8efe6"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#dce9d4"/>
+      <stop offset="1" stop-color="#bfd4b8"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8f0ef"/>
+      <stop offset="1" stop-color="#8bbfc1"/>
+    </linearGradient>
+    <pattern id="beds" width="24" height="20" patternUnits="userSpaceOnUse" patternTransform="skewY(-12)">
+      <path d="M0 6 H24 M0 15 H24" stroke="#8da96e" stroke-width="3"/>
+    </pattern>
+    <pattern id="courtLines" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 0 H20 M0 0 V20" stroke="#f7f3db" stroke-width="1" opacity=".45"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+      <feOffset dx="0" dy="7" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".20"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#66836e"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #293b34; }
+      .title { font-size: 34px; font-weight: 750; }
+      .subtitle { font-size: 16px; fill: #62756a; }
+      .head { font-size: 20px; font-weight: 700; }
+      .label { font-size: 13px; font-weight: 700; }
+      .small { font-size: 12px; fill: #52665a; }
+      .tiny { font-size: 10px; fill: #5d7064; }
+      .white { fill: #fff; }
+      .pale { fill: #e7eee7; }
+      .soft { fill: #c3d1c5; }
+    </style>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#background)"/>
+  <circle cx="1570" cy="100" r="150" fill="#fff0c7" opacity=".48"/>
+
+  <text x="55" y="62" class="title">БАЯНЦОГТ · АМИНЫ СУУЦНЫ 3D КОНЦЕПЦ</text>
+  <text x="58" y="94" class="subtitle">Нэгж талбар № 41703307 · хашаа, байшин, цэцэрлэг, амралтын хэсэг · ерөнхий 3D концепц, барилгын загвар биш</text>
+  <rect x="1425" y="43" width="315" height="38" rx="19" fill="#e4eee4"/>
+  <text x="1582" y="67" text-anchor="middle" class="small" font-weight="700">БАЙРШЛЫН МЭДЭЭЛЭЛ ДАРАА НЭМНЭ</text>
+
+  <!-- Illustration board -->
+  <rect x="45" y="130" width="1240" height="965" rx="24" fill="#fffefa" stroke="#dbe4d9" stroke-width="1.5"/>
+  <text x="78" y="173" class="head">ГАЗРЫН АКСОНОМЕТР 3D ХАРАГДАЦ</text>
+  <text x="78" y="197" class="small">Санааг орон зайн байдлаар харах дүрслэл · масштабаар хэмжихгүй</text>
+
+  <!-- Site plane, cutaway edge, boundary -->
+  <path d="M108 526 L719 294 L1215 535 L604 784 Z" fill="#a9bc9f" opacity=".45"/>
+  <path d="M108 510 L719 278 L1215 519 L604 768 Z" fill="url(#grass)" stroke="#55725b" stroke-width="5"/>
+  <path d="M108 510 L604 768 L604 784 L108 526 Z" fill="#8fa886" opacity=".75"/>
+  <path d="M604 768 L1215 519 L1215 535 L604 784 Z" fill="#799471" opacity=".78"/>
+  <path d="M127 508 L720 294 L1197 524 L604 749 Z" fill="none" stroke="#f5f6eb" stroke-width="2" stroke-dasharray="10 8"/>
+
+  <!-- Soft terrain contours -->
+  <path d="M159 485 C315 432 435 435 561 389 C729 328 901 353 1125 459" fill="none" stroke="#a0b695" stroke-width="2" opacity=".62"/>
+  <path d="M179 535 C319 484 445 485 581 438 C749 380 924 405 1147 512" fill="none" stroke="#a0b695" stroke-width="2" opacity=".56"/>
+  <path d="M216 588 C351 540 467 535 605 492 C759 444 935 456 1107 548" fill="none" stroke="#a0b695" stroke-width="2" opacity=".5"/>
+  <path d="M260 644 C395 603 495 589 628 554 C779 514 929 515 1075 584" fill="none" stroke="#a0b695" stroke-width="2" opacity=".43"/>
+
+  <!-- Indicative perimeter fence -->
+  <path d="M108 510 L719 278 L1215 519 L604 768 Z" fill="none" stroke="#735f46" stroke-width="4" stroke-dasharray="4 9" opacity=".8"/>
+  <g fill="#755e43">
+    <circle cx="108" cy="510" r="5"/><circle cx="230" cy="464" r="5"/><circle cx="352" cy="417" r="5"/>
+    <circle cx="475" cy="371" r="5"/><circle cx="597" cy="324" r="5"/><circle cx="719" cy="278" r="5"/>
+    <circle cx="818" cy="326" r="5"/><circle cx="917" cy="374" r="5"/><circle cx="1016" cy="422" r="5"/>
+    <circle cx="1115" cy="471" r="5"/><circle cx="1215" cy="519" r="5"/>
+    <circle cx="1093" cy="568" r="5"/><circle cx="971" cy="618" r="5"/><circle cx="849" cy="668" r="5"/>
+    <circle cx="727" cy="718" r="5"/><circle cx="604" cy="768" r="5"/><circle cx="505" cy="716" r="5"/>
+    <circle cx="406" cy="665" r="5"/><circle cx="307" cy="614" r="5"/><circle cx="208" cy="562" r="5"/>
+  </g>
+
+  <!-- Driveway -->
+  <path d="M214 786 C211 725 219 660 250 612 C266 588 284 572 306 555" fill="none" stroke="#b9b1a2" stroke-width="25" stroke-linecap="round"/>
+  <path d="M214 786 C211 725 219 660 250 612 C266 588 284 572 306 555" fill="none" stroke="#f3eee4" stroke-width="2" stroke-dasharray="9 10"/>
+  <ellipse cx="265" cy="595" rx="56" ry="26" transform="rotate(-22 265 595)" fill="#c9c2b5" stroke="#948b7a" stroke-width="2"/>
+  <text x="248" y="631" class="tiny">машины орц / зогсоол</text>
+
+  <!-- Main house shadow -->
+  <path d="M475 487 L637 424 L777 490 L614 555 Z" fill="#80907b" opacity=".26"/>
+
+  <!-- Main house lower walls -->
+  <g filter="url(#shadow)">
+    <!-- front wall -->
+    <path d="M458 454 L600 510 L600 613 L458 556 Z" fill="#d29b61" stroke="#79583a" stroke-width="3"/>
+    <!-- right wall -->
+    <path d="M600 510 L790 438 L790 541 L600 613 Z" fill="#bd8350" stroke="#79583a" stroke-width="3"/>
+    <!-- front gable -->
+    <path d="M458 454 L529 399 L600 454 L600 510 Z" fill="#e6bd86" stroke="#79583a" stroke-width="3"/>
+    <!-- front roof plane -->
+    <path d="M438 451 L529 374 L625 445 L600 460 L529 407 L468 462 Z" fill="#9c573b" stroke="#71422f" stroke-width="3"/>
+    <!-- side roof plane -->
+    <path d="M529 374 L805 427 L790 449 L625 445 L600 460 Z" fill="#784638" stroke="#71422f" stroke-width="3"/>
+  </g>
+  <!-- front large glazed wall -->
+  <path d="M477 468 L581 509 L581 565 L477 523 Z" fill="url(#glass)" stroke="#75593e" stroke-width="3"/>
+  <path d="M529 489 L529 544 M477 495 L581 536" stroke="#f4f0df" stroke-width="3"/>
+  <!-- front door -->
+  <path d="M539 553 L569 565 L569 602 L539 590 Z" fill="#75573f" stroke="#5b432f" stroke-width="2"/>
+  <circle cx="562" cy="581" r="2.5" fill="#edcf84"/>
+  <!-- side window -->
+  <path d="M641 497 L693 477 L693 520 L641 540 Z" fill="#b8dbdc" stroke="#6e573d" stroke-width="2.5"/>
+  <path d="M667 487 L667 530" stroke="#f7f2e4" stroke-width="2"/>
+  <text x="604" y="633" text-anchor="middle" class="label">ЖИЛИЙН СУУЦ · 5.5 × 7 М ОРЧИМ + МЕЗАНИН</text>
+  <text x="604" y="650" text-anchor="middle" class="tiny">урд нарны шиллэгээ · тамбур · дулаалгатай бүрхүүл</text>
+
+  <!-- Garage -->
+  <path d="M315 505 L389 476 L451 506 L377 536 Z" fill="#b5c3ba" stroke="#62786c" stroke-width="2"/>
+  <path d="M315 505 L377 536 L377 590 L315 561 Z" fill="#cbd6d0" stroke="#62786c" stroke-width="2"/>
+  <path d="M377 536 L451 506 L451 559 L377 590 Z" fill="#aebdb4" stroke="#62786c" stroke-width="2"/>
+  <path d="M306 502 L382 462 L463 499 L450 509 L382 478 L325 512 Z" fill="#64796f" stroke="#4d6257" stroke-width="2"/>
+  <path d="M328 515 L362 532 L362 575 L328 558 Z" fill="#e1e9e4" stroke="#62786c" stroke-width="2"/>
+  <text x="379" y="610" text-anchor="middle" class="tiny">гарааш (дараагийн үе)</text>
+
+  <!-- Greenhouse -->
+  <path d="M739 449 L819 419 L894 455 L814 486 Z" fill="#a7cfad" stroke="#60856a" stroke-width="2"/>
+  <path d="M739 449 L814 486 L814 536 L739 499 Z" fill="#bde0c1" fill-opacity=".82" stroke="#60856a" stroke-width="2"/>
+  <path d="M814 486 L894 455 L894 506 L814 536 Z" fill="#91bf9b" fill-opacity=".88" stroke="#60856a" stroke-width="2"/>
+  <path d="M729 447 L812 400 L905 449 L894 458 L812 415 L747 454 Z" fill="#d6edd7" stroke="#60856a" stroke-width="2"/>
+  <path d="M814 415 V535 M739 466 L894 479" stroke="#779e7e" stroke-width="2"/>
+  <text x="816" y="555" text-anchor="middle" class="tiny">зуны хүлэмж</text>
+
+  <!-- Vegetable beds -->
+  <path d="M749 554 L862 510 L926 540 L813 585 Z" fill="#abbd8c" stroke="#72875d" stroke-width="2"/>
+  <path d="M749 554 L813 585 L813 615 L749 584 Z" fill="#899f6d" stroke="#72875d" stroke-width="2"/>
+  <path d="M813 585 L926 540 L926 570 L813 615 Z" fill="#77915f" stroke="#72875d" stroke-width="2"/>
+  <path d="M758 556 L868 514 L917 538 L807 581 Z" fill="url(#beds)" opacity=".95"/>
+  <text x="829" y="633" text-anchor="middle" class="tiny">ногооны мандал · дуслын усалгаа</text>
+  <!-- Rain tank -->
+  <ellipse cx="924" cy="479" rx="17" ry="8" fill="#81b9c7" stroke="#4d7e89" stroke-width="2"/>
+  <path d="M907 479 V518 Q924 529 941 518 V479" fill="#9ed0d8" stroke="#4d7e89" stroke-width="2"/>
+  <ellipse cx="924" cy="518" rx="17" ry="8" fill="#80b8c6" stroke="#4d7e89" stroke-width="2"/>
+  <text x="941" y="541" class="micro">усны сав</text>
+
+  <!-- Orchard trees -->
+  <g>
+    <g transform="translate(730 350)">
+      <ellipse cx="8" cy="13" rx="20" ry="10" fill="#9cac8a"/>
+      <path d="M0 12 V43" stroke="#765f42" stroke-width="7"/>
+      <circle cx="-5" cy="-3" r="18" fill="#78966b"/><circle cx="12" cy="-8" r="19" fill="#88a878"/><circle cx="23" cy="1" r="15" fill="#729568"/>
+      <circle cx="-8" cy="-8" r="3" fill="#e8b35f"/><circle cx="12" cy="-18" r="3" fill="#d8896a"/>
+    </g>
+    <g transform="translate(807 336) scale(.9)">
+      <ellipse cx="8" cy="13" rx="20" ry="10" fill="#9cac8a"/>
+      <path d="M0 12 V43" stroke="#765f42" stroke-width="7"/>
+      <circle cx="-5" cy="-3" r="18" fill="#78966b"/><circle cx="12" cy="-8" r="19" fill="#88a878"/><circle cx="23" cy="1" r="15" fill="#729568"/>
+      <circle cx="-7" cy="0" r="3" fill="#e8b35f"/>
+    </g>
+    <g transform="translate(878 367) scale(.84)">
+      <ellipse cx="8" cy="13" rx="20" ry="10" fill="#9cac8a"/>
+      <path d="M0 12 V43" stroke="#765f42" stroke-width="7"/>
+      <circle cx="-5" cy="-3" r="18" fill="#78966b"/><circle cx="12" cy="-8" r="19" fill="#88a878"/><circle cx="23" cy="1" r="15" fill="#729568"/>
+    </g>
+  </g>
+  <text x="820" y="320" text-anchor="middle" class="tiny">жимсний мод/бутны бүс</text>
+
+  <!-- Guest ger -->
+  <ellipse cx="1012" cy="543" rx="86" ry="31" fill="#91a183" opacity=".26"/>
+  <path d="M943 518 Q943 479 1010 460 Q1078 479 1078 518 L1078 555 L943 555 Z" fill="#e7d4af" stroke="#8d7550" stroke-width="2.5"/>
+  <path d="M943 518 Q943 479 1010 460 Q1078 479 1078 518" fill="#d4ba8e" stroke="#8d7550" stroke-width="2.5"/>
+  <path d="M1000 473 V453 H1020 V473" fill="#8b6648" stroke="#6d5238" stroke-width="2"/>
+  <path d="M1001 514 L1019 509 V555 H1001 Z" fill="#926c47" stroke="#6d5238" stroke-width="1.5"/>
+  <text x="1010" y="577" text-anchor="middle" class="tiny">6 хүний зуны зочны гэр/байр</text>
+
+  <!-- Small outdoor toilet / shower -->
+  <path d="M1081 566 L1120 551 L1150 565 L1111 580 Z" fill="#d5dccc" stroke="#76836f" stroke-width="1.5"/>
+  <path d="M1081 566 L1111 580 L1111 609 L1081 595 Z" fill="#e5e8db" stroke="#76836f" stroke-width="1.5"/>
+  <path d="M1111 580 L1150 565 L1150 594 L1111 609 Z" fill="#c9d3c4" stroke="#76836f" stroke-width="1.5"/>
+  <path d="M1076 565 L1115 543 L1155 562 L1150 568 L1115 551 L1084 568 Z" fill="#7f8e78" stroke="#65735e" stroke-width="1.5"/>
+  <text x="1118" y="628" text-anchor="middle" class="micro">зуны био-жорлон</text>
+  <text x="1118" y="641" text-anchor="middle" class="micro">угаалтуур/шүршүүр</text>
+
+  <!-- BBQ shelter -->
+  <path d="M699 662 L798 624 L884 666 L784 705 Z" fill="#d7c3a0" stroke="#89724e" stroke-width="2"/>
+  <path d="M699 662 L784 705 L784 751 L699 709 Z" fill="#e1d1b5" stroke="#89724e" stroke-width="2"/>
+  <path d="M784 705 L884 666 L884 712 L784 751 Z" fill="#cbb28a" stroke="#89724e" stroke-width="2"/>
+  <path d="M686 659 L794 600 L898 653 L884 670 L794 625 L703 672 Z" fill="#9b714f" stroke="#78593d" stroke-width="2.5"/>
+  <path d="M717 684 L763 707 L763 735 L717 712 Z" fill="#b96f43" stroke="#80502f" stroke-width="2"/>
+  <path d="M725 692 L754 706 M725 700 L754 714" stroke="#f0d29c" stroke-width="2"/>
+  <path d="M800 686 L835 672 L835 705 L800 719 Z" fill="#a68960" stroke="#775d3e" stroke-width="1.5"/>
+  <text x="792" y="773" text-anchor="middle" class="tiny">салхи хаасан саравч · шарах зуух</text>
+
+  <!-- Play area: sandbox, slide, swing -->
+  <path d="M308 658 L422 615 L512 658 L398 705 Z" fill="#efe2c4" stroke="#ad9666" stroke-width="2"/>
+  <path d="M308 658 L398 705 L398 751 L308 704 Z" fill="#dcc99f" stroke="#ad9666" stroke-width="2"/>
+  <path d="M398 705 L512 658 L512 704 L398 751 Z" fill="#cdb889" stroke="#ad9666" stroke-width="2"/>
+  <ellipse cx="351" cy="674" rx="30" ry="11" transform="rotate(26 351 674)" fill="#e8d19d" stroke="#bd9d5f" stroke-width="1.5"/>
+  <path d="M406 667 L428 659 L428 705 L406 714 Z" fill="#d78454" stroke="#975c3d" stroke-width="1.5"/>
+  <path d="M402 667 L417 649 L433 660 Z" fill="#78a4a0" stroke="#547a77" stroke-width="1.5"/>
+  <path d="M451 640 L451 677 M486 626 L486 662 M451 650 L486 638" fill="none" stroke="#796344" stroke-width="3"/>
+  <path d="M457 654 Q468 662 480 649" fill="none" stroke="#bd8951" stroke-width="3"/>
+  <text x="407" y="772" text-anchor="middle" class="tiny">элс · гулсуур · дүүжинтэй тоглоомын хэсэг</text>
+
+  <!-- Tennis practice pad -->
+  <path d="M920 378 L1032 335 L1115 375 L1002 419 Z" fill="#7fa27b" stroke="#56745a" stroke-width="2"/>
+  <path d="M920 378 L1002 419 L1002 447 L920 406 Z" fill="#648763" stroke="#56745a" stroke-width="2"/>
+  <path d="M1002 419 L1115 375 L1115 403 L1002 447 Z" fill="#5a7d5d" stroke="#56745a" stroke-width="2"/>
+  <path d="M934 379 L1031 342 L1101 376 L1004 414 Z" fill="url(#courtLines)" stroke="#f4f0da" stroke-width="1.5"/>
+  <path d="M968 366 L1038 400 M1016 348 L1086 382" stroke="#f1edda" stroke-width="1.5"/>
+  <text x="1018" y="464" text-anchor="middle" class="micro">теннисний practice талбай</text>
+
+  <!-- Rock water feature -->
+  <path d="M895 753 Q917 730 939 744 Q958 727 978 745 Q1002 735 1016 754 Q1040 760 1035 780 Q1026 799 1005 797 Q981 807 960 794 Q936 805 918 789 Q894 787 895 753 Z" fill="#91c3c4" stroke="#58898b" stroke-width="2.5"/>
+  <path d="M902 760 Q915 748 929 758 L925 770 Q912 776 902 760 M945 752 Q959 743 972 754 L968 767 Q953 770 945 752 M988 758 Q1002 747 1014 759 L1011 773 Q998 779 988 758" fill="#86877f" stroke="#62665e" stroke-width="1.5"/>
+  <path d="M934 762 Q948 778 965 777" fill="none" stroke="#efffff" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="967" y="823" text-anchor="middle" class="micro">хаалттай эргэлтийн жижиг хадны ус</text>
+
+  <!-- Trees -->
+  <g>
+    <g transform="translate(162 468)">
+      <ellipse cx="12" cy="22" rx="29" ry="13" fill="#91a785" opacity=".45"/>
+      <path d="M10 15 V64" stroke="#765c3e" stroke-width="9"/>
+      <circle cx="-7" cy="8" r="25" fill="#6e9268"/><circle cx="19" cy="-4" r="30" fill="#84a87a"/><circle cx="39" cy="12" r="24" fill="#73986d"/>
+    </g>
+    <g transform="translate(1096 359) scale(.85)">
+      <ellipse cx="12" cy="22" rx="29" ry="13" fill="#91a785" opacity=".45"/>
+      <path d="M10 15 V64" stroke="#765c3e" stroke-width="9"/>
+      <circle cx="-7" cy="8" r="25" fill="#6e9268"/><circle cx="19" cy="-4" r="30" fill="#84a87a"/><circle cx="39" cy="12" r="24" fill="#73986d"/>
+    </g>
+    <g transform="translate(1095 672) scale(.72)">
+      <ellipse cx="12" cy="22" rx="29" ry="13" fill="#91a785" opacity=".45"/>
+      <path d="M10 15 V64" stroke="#765c3e" stroke-width="9"/>
+      <circle cx="-7" cy="8" r="25" fill="#6e9268"/><circle cx="19" cy="-4" r="30" fill="#84a87a"/><circle cx="39" cy="12" r="24" fill="#73986d"/>
+    </g>
+    <g transform="translate(570 684) scale(.65)">
+      <ellipse cx="12" cy="22" rx="29" ry="13" fill="#91a785" opacity=".45"/>
+      <path d="M10 15 V64" stroke="#765c3e" stroke-width="9"/>
+      <circle cx="-7" cy="8" r="25" fill="#6e9268"/><circle cx="19" cy="-4" r="30" fill="#84a87a"/><circle cx="39" cy="12" r="24" fill="#73986d"/>
+    </g>
+  </g>
+
+  <!-- Small light markers and paths -->
+  <path d="M392 584 C458 611 505 646 548 681 C626 704 693 696 727 664 M665 418 C743 389 838 365 910 385 M882 628 C967 613 1033 591 1082 561" fill="none" stroke="#c8ad7d" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 10" opacity=".9"/>
+  <g fill="#f7d578" stroke="#9c7f3e" stroke-width="1">
+    <circle cx="410" cy="591" r="6"/><circle cx="497" cy="650" r="6"/><circle cx="666" cy="690" r="6"/>
+    <circle cx="742" cy="391" r="6"/><circle cx="898" cy="392" r="6"/><circle cx="1058" cy="592" r="6"/>
+    <circle cx="882" cy="648" r="6"/><circle cx="1070" cy="713" r="6"/>
+  </g>
+  <text x="927" y="859" class="tiny">алхах зам · нам, доош чиглэсэн шөнийн гэрэл</text>
+  <text x="927" y="876" class="tiny">налуу ба гадаргын усыг байшингаас зайлуулах урьдчилсан санаа</text>
+
+  <!-- Callout labels on illustration -->
+  <rect x="91" y="252" width="248" height="66" rx="12" fill="#fffefa" fill-opacity=".92" stroke="#d8e1d4"/>
+  <text x="108" y="276" class="label">НАЛУУГ АШИГЛАН БАЙРЛУУЛНА</text>
+  <text x="108" y="297" class="tiny">бүх газрыг хавтгай ухахгүй · хэмжилтээр батална</text>
+  <path d="M250 319 L322 400" stroke="#718675" stroke-width="1.7" fill="none"/>
+  <rect x="902" y="247" width="278" height="54" rx="12" fill="#fffefa" fill-opacity=".92" stroke="#d8e1d4"/>
+  <text x="1041" y="270" text-anchor="middle" class="label">НАРНЫ ГЭРЭЛ · УРД ТАЛ</text>
+  <text x="1041" y="288" text-anchor="middle" class="tiny">чиглэлийг бодит хойд зүгээр дахин тохируулна</text>
+  <path d="M1018 303 L932 346" stroke="#d39b35" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="950" cy="295" r="18" fill="#f3c75f"/>
+  <path d="M950 267 V256 M950 334 V323 M922 295 H911 M989 295 H978 M930 275 L922 267 M978 323 L970 315 M970 275 L978 267 M922 323 L930 315" stroke="#d39b35" stroke-width="2"/>
+
+  <!-- South road -->
+  <path d="M120 865 L604 1097 L1210 850" fill="none" stroke="#aaa79f" stroke-width="46" stroke-linecap="round"/>
+  <path d="M120 865 L604 1097 L1210 850" fill="none" stroke="#f6f2e9" stroke-width="2.5" stroke-dasharray="14 13"/>
+  <text x="616" y="1087" text-anchor="middle" class="white" font-size="15" font-weight="700">УРД ЗАМ · ОРЦ</text>
+  <text x="170" y="899" class="tiny">машины зогсоол ба гараашийн зүг</text>
+
+  <!-- Right-side panel -->
+  <rect x="1310" y="130" width="445" height="965" rx="24" fill="#fffefa" stroke="#dbe4d9" stroke-width="1.5"/>
+  <text x="1342" y="174" class="head">ЗУРГИЙН БАГЦЫГ ИНГЭЖ ХӨГЖҮҮЛНЭ</text>
+  <text x="1342" y="200" class="small">План → фасад/зүсэлт → 3D → гадна тохижилт</text>
+
+  <rect x="1340" y="228" width="385" height="128" rx="15" fill="#edf3ea"/>
+  <circle cx="1372" cy="259" r="17" fill="#4f765d"/>
+  <text x="1372" y="264" text-anchor="middle" class="white" font-size="13" font-weight="700">1</text>
+  <text x="1400" y="264" class="label">ГАЗРЫН СУУРЬ МЭДЭЭЛЭЛ</text>
+  <text x="1360" y="294" class="small">Кадастр · өндөршил/налуу · хөрс · орц</text>
+  <text x="1360" y="317" class="small">Эдгээрээр мастерпланы байрлалыг засна</text>
+  <text x="1360" y="339" class="tiny">Одоохондоо ерөнхий хувилбарыг зураглав</text>
+
+  <rect x="1340" y="371" width="385" height="128" rx="15" fill="#f4ecdf"/>
+  <circle cx="1372" cy="402" r="17" fill="#b58c52"/>
+  <text x="1372" y="407" text-anchor="middle" class="white" font-size="13" font-weight="700">2</text>
+  <text x="1400" y="407" class="label">ЭЗЭЛХҮҮН БА БҮДҮҮВЧ ПЛАН</text>
+  <text x="1360" y="437" class="small">Байшингийн хэмжээ · мезанин · хаалга/цонх</text>
+  <text x="1360" y="460" class="small">Зочны байр · гарааш · хашааны бүсүүд</text>
+  <text x="1360" y="482" class="tiny">Эхний хэмжээ: 5.5 × 7 м орчим + мезанин</text>
+
+  <rect x="1340" y="514" width="385" height="128" rx="15" fill="#edf3ea"/>
+  <circle cx="1372" cy="545" r="17" fill="#4f765d"/>
+  <text x="1372" y="550" text-anchor="middle" class="white" font-size="13" font-weight="700">3</text>
+  <text x="1400" y="550" class="label">АРХИТЕКТУРЫН ЗУРАГ + 3D</text>
+  <text x="1360" y="580" class="small">Хэмжээтэй план · фасад · зүсэлт</text>
+  <text x="1360" y="603" class="small">Гадна төрх · зочны өрөө/гал тогооны 3D</text>
+  <text x="1360" y="625" class="tiny">Бүтээц, дулаан, агаар сэлгэлтийг тооцно</text>
+
+  <rect x="1340" y="657" width="385" height="128" rx="15" fill="#f4ecdf"/>
+  <circle cx="1372" cy="688" r="17" fill="#b58c52"/>
+  <text x="1372" y="693" text-anchor="middle" class="white" font-size="13" font-weight="700">4</text>
+  <text x="1400" y="693" class="label">ИНЖЕНЕРИЙН ШИЙДЭЛ</text>
+  <text x="1360" y="723" class="small">Нарны систем · зуух/яндан · цэвэр ус</text>
+  <text x="1360" y="746" class="small">Бохир ус · борооны ус · ус зайлуулалт</text>
+  <text x="1360" y="768" class="tiny">Орон нутгийн норм, зөвшөөрлөөр шалгана</text>
+
+  <rect x="1340" y="800" width="385" height="128" rx="15" fill="#edf3ea"/>
+  <circle cx="1372" cy="831" r="17" fill="#4f765d"/>
+  <text x="1372" y="836" text-anchor="middle" class="white" font-size="13" font-weight="700">5</text>
+  <text x="1400" y="836" class="label">ХАШАА БА ГАДНА ТОХИЖИЛТ</text>
+  <text x="1360" y="866" class="small">Зам · гэрэлтүүлэг · ногоон бүс · хүлэмж</text>
+  <text x="1360" y="889" class="small">Хүүхдийн хэсэг · саравч · зочны байр</text>
+  <text x="1360" y="911" class="tiny">Усалгааны болон арчилгааны хэрэгцээг тооцно</text>
+
+  <rect x="1340" y="943" width="385" height="112" rx="15" fill="#e7eee6"/>
+  <text x="1360" y="973" class="label">6 · ТӨСӨВ, ҮЕ ШАТ, ГҮЙЦЭТГЭЛ</text>
+  <text x="1360" y="999" class="small">Тоо хэмжээ/үнийн санал → эхний ээлж → нэмэлт ажил</text>
+  <text x="1360" y="1023" class="small">100 сая ₮-ийн хүрээг бодит саналтай тулгана</text>
+  <text x="1360" y="1044" class="tiny">Барилгын ажлын зураг, зөвшөөрлийг мэргэжлийн баг батална</text>
+
+  <!-- Footer -->
+  <rect x="45" y="1120" width="1710" height="58" rx="17" fill="#30473b"/>
+  <text x="77" y="1147" class="white" font-size="15" font-weight="700">ЭНЭ ХУВИЛБАР БОЛ ЭХЛЭЛ: ХИЛ, НАЛУУ, ХОЙД ЗҮГ, ХӨРСИЙН МЭДЭЭЛЭЛ ОРЖ ИРЭХЭД 3D БАЙРЛАЛЫГ ДАХИН ТААРУУЛНА.</text>
+  <text x="77" y="1167" class="pale" font-size="11">Харагдацын хэмжээ, модны тоо, байгууламжийн зай ба барилгын хийц нь урьдчилсан; албан ёсны барилгын зураг болон инженерийн баталгаажуулалт биш.</text>
+</svg>
